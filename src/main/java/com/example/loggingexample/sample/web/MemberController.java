@@ -28,7 +28,7 @@ public class MemberController {
         log.info("===========================");
         log.info("info : Start to create member");
         log.debug("debug : Start to create member");
-        log.error("error : Start to create member");
+        log.error("ERROR : ERROR");
         log.trace("trace : Start to create member");
         log.warn("warn : Start to create member");
         log.info("===========================");

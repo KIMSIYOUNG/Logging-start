@@ -20,8 +20,8 @@ public class MemberService {
         log.info("===========================");
         log.info("info : This is Service");
         log.debug("debug : This is Service");
-        log.error("error : This is Service");
         log.trace("trace : This is Service");
+        log.error("ERROR : ERROR");
         log.warn("warn : This is Service");
         log.info("===========================");
 

@@ -27,9 +27,8 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
-    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
     testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
-
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-mail'
 }
 
 test {

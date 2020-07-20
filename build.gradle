@@ -29,6 +29,12 @@ dependencies {
     }
     testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-mail'
+    // https://mvnrepository.com/artifact/ch.qos.logback.contrib/logback-json-classic
+    compile group: 'ch.qos.logback.contrib', name: 'logback-json-classic', version: '0.1.5'
+    // https://mvnrepository.com/artifact/ch.qos.logback.contrib/logback-jackson
+    compile group: 'ch.qos.logback.contrib', name: 'logback-jackson', version: '0.1.2'
+
+
 }
 
 test {
